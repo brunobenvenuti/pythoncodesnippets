@@ -34,5 +34,5 @@ myPandaDs = myPandaDs.dropna(axis=0) # axis = 0 means we drop lines
 ```
 * Check if dataset has null fields
 ```python
-movielens1M.isnull().sum()
+myPandaDs.isnull().sum()
 ```
