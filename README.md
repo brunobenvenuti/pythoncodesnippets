@@ -1,6 +1,6 @@
 # Python Code Snippets
 
-Useful Python Code Snippets, mainly for Machine Learning algorithms.
+Useful code snippets, mainly for Machine Learning algorithms.
 
 ## General
 
@@ -31,4 +31,8 @@ myPandaDs.isnull().sum()
 * Drop empty rows
 ```python
 myPandaDs = myPandaDs.dropna(axis=0) # axis = 0 means we drop lines
+```
+* Check if dataset has null fields
+```python
+movielens1M.isnull().sum()
 ```
