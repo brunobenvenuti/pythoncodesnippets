@@ -36,3 +36,5 @@ myPandaDs = myPandaDs.dropna(axis=0) # axis = 0 means we drop lines
 ```python
 myPandaDs.isnull().sum()
 ```
+* A lot of code snipetts for merging, joining and concatenating: https://pandas.pydata.org/pandas-docs/stable/merging.html
+
